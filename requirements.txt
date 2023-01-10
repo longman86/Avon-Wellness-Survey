@@ -94,7 +94,6 @@ pyodbc==4.0.34
 pyparsing==3.0.9
 pyrsistent==0.18.1
 python-dateutil==2.8.2
-python-dotenv==0.20.0
 pywin32==304
 PyYAML==6.0
 pyzmq==23.2.1
