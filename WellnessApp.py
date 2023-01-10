@@ -6,7 +6,7 @@ import webbrowser
 from PIL import Image
 
 st.set_page_config(layout='wide')
-image = Image.open('C:\\Users\\ademola.atolagbe\\Downloads\\Avon.jfif')
+image = Image.open('AvonLogo.png')
 st.image(image, use_column_width=False)
 st.title('AVON HMO Wellness Survey')
 
