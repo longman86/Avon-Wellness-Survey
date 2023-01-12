@@ -1,5 +1,6 @@
 decorator
 ipython
+io
 matplotlib
 matplotlib-inline
 msrest
@@ -9,3 +10,4 @@ openpyxl
 packaging
 pandas
 pyodbc
+requests
