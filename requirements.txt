@@ -34,7 +34,6 @@ gitdb
 GitPython
 idna
 importlib-metadata
-io
 ipykernel
 ipython
 ipywidgets
@@ -78,7 +77,6 @@ PyJWT
 Pympler
 pyodbc
 pyparsing
-requests
 seaborn
 semver
 six
