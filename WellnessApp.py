@@ -8,8 +8,9 @@ st.image(image, use_column_width=False)
 st.title('AVON HMO Wellness Survey')
 
 
-path = r'C:\Users\ademola.atolagbe\Documents\Medical_Services\Member_Wellness.csv'
-wellness_df = pd.read_csv(path)
+url = "https://raw.githubusercontent.com/longman86/Avon-Wellness-Survey/main/Member_Wellness.csv" # Make sure the url is the raw version of the file on GitHub
+download = requests.get(url).content
+wellness_df = pd.read_csv(io.StringIO(download.decode('utf-8')))
 
 
 enrollee_id = st.text_input('Kindly input your member number and press the enter key to confirm your eligibility')
