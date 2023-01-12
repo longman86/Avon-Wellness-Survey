@@ -1,6 +1,5 @@
 decorator
 ipython
-io
 matplotlib
 matplotlib-inline
 msrest
