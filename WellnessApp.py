@@ -8,7 +8,7 @@ st.image(image, use_column_width=False)
 st.title('AVON HMO Wellness Survey')
 
 
-path = r'C:\Users\ademola.atolagbe\OneDrive - Avon Healthcare Ltd\Member Wellness.csv'
+path = r'C:\Users\ademola.atolagbe\OneDrive - Avon Healthcare Ltd\Member_Wellness.csv'
 #path = 'https://avonhealthcareltd-my.sharepoint.com/personal/droguguah_ejinkeonye_avonhealthcare_com/Documents/Documents/Wellness%20member%20list.xlsx?web=1'
 wellness_df = pd.read_csv(path)
 
